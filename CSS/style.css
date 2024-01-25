@@ -1,0 +1,15 @@
+h1{
+   color:fuchsia;
+}
+body{
+     backgroud-color:blue;
+}
+p{
+  color:blue;
+  font-family:Abadi;
+  font-size:25
+}
+img.img-peque{
+ width:150px;
+ height:145px;
+}
