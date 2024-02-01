@@ -13,3 +13,6 @@ img.img-peque{
  width:150px;
  height:145px;
 }
+.circular--square{
+ border-radius:100%
+}
