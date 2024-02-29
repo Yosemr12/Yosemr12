@@ -158,3 +158,32 @@ height:350px;
   margin-right: auto;
 
 }
+aside {
+	width:40%;
+	padding-left: 0.5rem;
+	margin-left: 0.5rem;
+	float: right;
+	box-shadow: inset 5px 0
+5px -5px #29627e;
+	font-style: italic;
+	color: #366f8b;
+}
+div.divisioncita{
+	border: 5px solid rgb(7, 104, 133);
+	padding-top:50px;
+	padding-right: 30px;
+	padding-bottom:65px;
+	padding-left: 80px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-right:150;
+	margin-left: 80px;
+	font-family:'gill sans', 'gill sans MT' 'Gill Sans', 'Gill Sans MT','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	background-color: #a08feb; 
+	text-align: justify;
+}
+div.divisioncita2{
+	border:12px groove rgb(75, 104, 231);
+	padding: 50px 30px 50px 80px;
+	margin: 25px 50px 75px 100px;
+}
