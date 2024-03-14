@@ -225,7 +225,7 @@ p{
   clip-path: circle(50%);
 }
 
-.dive {
+.div {
 	margin: 6rem 12rem;
 	height: 28rem;
 	width: 36rem;
@@ -250,3 +250,93 @@ p{
 		background-image: url(descarga.jpg);
 	}
 }
+.container{
+	width: 50%;
+	height: 200px;
+	display: flex;
+	gap: 5px;
+}
+.container img{
+	width: 10%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 10px;
+	border: 2px solid white;
+	transition:  all ease-out 0.5s;
+    cursor: pointer;
+}
+.container img{ 
+	width: 10%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 10px;
+	border: 2px solid white;
+	transition: all ease-out 0.5s;
+	cursor: pointer;
+}
+.container img:hover {
+	width: 100%;
+}
+/* Some decoration (not needed) */
+.row {
+	min-height: 300px;
+	position: relative;
+	margin-bottom: 20px;
+  }
+  
+  .square {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background: red;
+	color: white;
+	font-size: 22px;
+  }
+  
+  /* Start of animations */
+ 
+  .slide {
+	position: absolute;
+	animation: slide 4s infinite linear;
+  }
+  
+  @keyframes slide {
+	from {
+	  transform: translate(0, 0);
+	}
+	to {
+	  transform: translate(100%, 0);
+	}
+  }
+  
+  .rotate {
+	animation: rotate 4s infinite linear;
+  }
+  
+  @keyframes rotate {
+	0% {
+	  transform: rotate(0);
+	}
+	100% {
+	  transform: rotate(360deg);
+	}
+}
+input:focus {
+	background-color: yellow;
+  }
+
+  div {
+	background-color: lightgrey;
+	width: 300px;
+	border: 15px solid green;
+	padding: 50px;
+	margin: 20px;
+  }
+  a:hover {
+	background-color: rgb(234, 0, 255);
+  }
+  #example3 {
+	border: 1px solid;
+	padding: 10px;
+	box-shadow: 5px 10px rgb(0, 183, 255);
+  }
