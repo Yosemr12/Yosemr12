@@ -41,22 +41,38 @@ body{
  }
  #content{
     float:left;
-    width:80% ;
+    width:calc(80% - 80px);
     min-height:500px;
     background: green;
+    padding: 40px;
  }
-
+.article{
+   color: white;
+   margin-top: 15px;
+   margin-bottom:15px;
+   padding-bottom: 10px;
+   border-bottom: 1px solid #eee;
+}
+.article:first-child{
+   padding-top: 10px;
+   border-top: 1px solid #eee;
+}
+.article h2{
+   font-size:25px ;
+}
  aside{
     float: left;
-    width: 20%;
+    width: calc(20% - 20px);
     background:orange ;
     min-height: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
  }
-
  footer{
-    background: black;
-    color: white;
-    text-align: center;
+    background:rgb(231, 61, 61);
+    color:rgb(7, 7, 7);
+    text-align:center;
     height: 50px;
     line-height: 50px;
  }
